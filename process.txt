@@ -1,0 +1,52 @@
+1,2.
+
+open with live server
+
+4.
+
+server.js - GET
+express-server.js - GET POST PUT DELETE
+
+node .\express_server.js
+thunderclient-> new req->GET http://localhost:5000/api/products -> send
+POST body-> paste GET o/p -> change id ->send
+
+express-server.js-> app.get -> copy 
+
+6.
+
+copy paste from mongodb into .env
+node app.js
+thunderclient->new req->GET http://localhost:3000/api/tasks ->send
+POST-> body-> { "title":"abc",
+"description":"xyz"
+} ->send 
+PUT -> update taskroutes.js -> send
+
+7.
+
+npm install -g @angular/cli@16 -> in cmd prompt
+cd .\EXP7\
+cd .\student-form\
+ng serve
+click link in terminal
+inspect->console-> show o/p
+
+11.
+
+npm install -g @angular/cli@16 -> in cmd prompt
+open 2 terminals, one server, one client
+cd .\EXP11\
+in one cd .\client\ in another cd .\server\
+
+
+node app.js (server terminal)
+running on port 3000
+in app.js(server) -> const mongo_db uri-> paste link (same as 6th one)
+node app.js (execute here not first time)
+
+
+npm install (client terminal)
+ng serve 
+open link from terminal 
+mongodb->add connection->taskmanagerdb->data stored
